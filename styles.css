@@ -1,0 +1,47 @@
+
+body{
+    margin: 0;
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 100px;
+}
+
+.nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    align-self: flex-start;    
+    max-width: 15%;
+    margin: -20px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.hero-content{
+    display: flex;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.hero-text{
+    align-self: center; 
+    max-width: 500px;
+}
+
+.header-img{
+  max-width:500px;
+}
+p{
+    font-size: 16px;
+    font-weight: lighter;
+}
